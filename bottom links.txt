@@ -1,0 +1,30 @@
+
+
+// image sizes
+
+
+// complete example
+
+<h6>Links</h6>
+<div class="row bottom-links">
+<div class="col col-md-4 bottom-links-sites">
+<a class="link-website" href="https://www.wheretostay.co.za/stationhouse-self-catering-cottage-accommodation-rosetta-midlands-and-battlefields" target="_blank" rel="noopener"></a>
+<a class="link-facebook" href="https://www.wheretostay.co.za/stationhouse-self-catering-cottage-accommodation-rosetta-midlands-and-battlefields" target="_blank" rel="noopener"></a>
+</div>
+<div class="col col-md-4 bottom-links-bookings">
+<a class="link-safarinow" href="https://www.wheretostay.co.za/stationhouse-self-catering-cottage-accommodation-rosetta-midlands-and-battlefields" target="_blank" rel="noopener"></a>
+<a class="link-booking" href="https://www.wheretostay.co.za/stationhouse-self-catering-cottage-accommodation-rosetta-midlands-and-battlefields" target="_blank" rel="noopener"></a>
+<a class="link-wheretostay" href="https://www.wheretostay.co.za/stationhouse-self-catering-cottage-accommodation-rosetta-midlands-and-battlefields" target="_blank" rel="noopener"></a>
+<a class="link-airbnb" href="https://www.wheretostay.co.za/stationhouse-self-catering-cottage-accommodation-rosetta-midlands-and-battlefields" target="_blank" rel="noopener"></a>
+</div>
+<div class="col col-md-4 bottom-links-other">
+<a href="http://nottsbrewery.co.za/" target="_blank" rel="noopener">Nottingham Road Brewery</a>
+<a href="https://www.rawdons.co.za/" target="_blank" rel="noopener">Rawdons</a>
+</div>
+</div>
+
+// if no site
+<span></span>
+
+// if no booking or other
+remove divs

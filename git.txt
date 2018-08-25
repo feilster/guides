@@ -1,0 +1,34 @@
+Check for any changes etc.:
+git status
+
+Pull down repo:
+git clone https://github.com/feilster/<repo-name>
+* not sure if necessary but do inside target dir
+
+Checkout \ switch branch:
+git checkout gh-pages
+
+New changes:
+git add <. or specific pages> 
+* mark to be committed
+git commit -m "<any descriptive commit message>"
+* commit with message to local repo
+git push
+* commits to github repo
+
+
+Add folder to existing repo:
+git init
+git add .
+git commit -m "Initial Commit"
+git remote add github https://github.com/feilster/<repo-name>.git
+git push github master
+
+Pull down latest changes:
+git pull origin master
+* if you see 'origin' does not appear to be a git repository
+git remote add origin https://github.com/feilster/Angular4
+
+
+
+browser-sync start --server --directory --files "*"
