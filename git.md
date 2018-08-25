@@ -28,4 +28,7 @@
 * if you see 'origin' does not appear to be a git repository
 git remote add origin https://github.com/feilster/Angular4
 
+## Git keeps asking for username password
 
+In the folder where you've pulled down the repo go to the **.git** folder and change the **config** file. Change the url variable to
+> url = https://feilster:Tazz$4$4@github.com/feilster/guides.git
