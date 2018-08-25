@@ -2,9 +2,9 @@
 
 // image sizes
 
-
-// complete example
-
+## Bottom links
+### complete example
+```
 <h6>Links</h6>
 <div class="row bottom-links">
 <div class="col col-md-4 bottom-links-sites">
@@ -22,9 +22,14 @@
 <a href="https://www.rawdons.co.za/" target="_blank" rel="noopener">Rawdons</a>
 </div>
 </div>
+```
 
-// if no site
+### if no site
+```
 <span></span>
+```
 
-// if no booking or other
+### if no booking or other
+```
 remove divs
+```
