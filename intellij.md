@@ -1,4 +1,5 @@
-## JPA PersistenceCapable not found on random entities
+## Issues
+### JPA PersistenceCapable not found on random entities
 Problem:
 Keeps giving that error when attempting Intellijbuild
 Cause:
