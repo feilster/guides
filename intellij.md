@@ -8,4 +8,3 @@ Solution
 2. still broken, then try **Close Project** and re-importing (making sure Gradle is selected)
 3. still broken, delete .idea folder completely and re-import project
 
-
