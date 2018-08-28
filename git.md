@@ -20,7 +20,7 @@
 > git init  
 > git add .  
 > git commit -m "Initial Commit"  
-> git remote add github https://github.com/feilster/\<repo-name>'.git  
+> git remote add github https://github.com/feilster/ <<repo-name>'.git  
 > git push -u origin master   
 
 ## Pull down latest changes:
