@@ -5,7 +5,7 @@
 > git status
 
 ## Pull down repo
-> git clone https://github.com/feilster//`<repo name/>`   \\\ not sure if necessary but do inside target dir
+> git clone https://github.com/feilster//< repo name >   \\\ not sure if necessary but do inside target dir
 
 ## Checkout \ switch branch
 > git checkout gh-pages
