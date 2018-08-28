@@ -12,7 +12,7 @@
 
 ## New changes
 > git add <. or specific pages>  \\\ mark to be committed  
-> git commit -m "<any descriptive commit message>"   \\\  commit with message to local repo  
+> git commit -m "< any descriptive commit message >"   \\\  commit with message to local repo  
 > git push   \\\ commits to github repo
 
 
