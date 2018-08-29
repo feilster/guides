@@ -1,6 +1,9 @@
 ## General
 ### CSS Classes
-* use **nb** to add red color and bold to phrases, eg. updates
+* use **nb** to add red color and bold to phrases, eg.
+```
+<p class="nb"><span>2018-02-02 - Update:</span> ... </p>
+```
 
 ## Images
 ### In File Manager:
