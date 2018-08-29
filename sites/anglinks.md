@@ -1,4 +1,6 @@
-
+## General
+### CSS Classes
+* use **nb** to add red color and bold to phrases, eg. updates
 
 ## Images
 ### In File Manager:
@@ -30,32 +32,6 @@
 * in wp name\caption: `<site>` logo small
 
 ### Complete example
-```
-<h6>Links</h6>
-<div class="row bottom-links">
-<div class="col col-md-4 bottom-links-sites">
-<a class="link-website" href="https://www.wheretostay.co.za/stationhouse-self-catering-cottage-accommodation-rosetta-midlands-and-battlefields" target="_blank" rel="noopener"></a>
-<a class="link-facebook" href="https://www.wheretostay.co.za/stationhouse-self-catering-cottage-accommodation-rosetta-midlands-and-battlefields" target="_blank" rel="noopener"></a>
-</div>
-<div class="col col-md-4 bottom-links-bookings">
-<a class="link-safarinow" href="https://www.wheretostay.co.za/stationhouse-self-catering-cottage-accommodation-rosetta-midlands-and-battlefields" target="_blank" rel="noopener"></a>
-<a class="link-booking" href="https://www.wheretostay.co.za/stationhouse-self-catering-cottage-accommodation-rosetta-midlands-and-battlefields" target="_blank" rel="noopener"></a>
-<a class="link-wheretostay" href="https://www.wheretostay.co.za/stationhouse-self-catering-cottage-accommodation-rosetta-midlands-and-battlefields" target="_blank" rel="noopener"></a>
-<a class="link-airbnb" href="https://www.wheretostay.co.za/stationhouse-self-catering-cottage-accommodation-rosetta-midlands-and-battlefields" target="_blank" rel="noopener"></a>
-</div>
-<div class="col col-md-4 bottom-links-other">
-<a href="http://nottsbrewery.co.za/" target="_blank" rel="noopener">Nottingham Road Brewery</a>
-<a href="https://www.rawdons.co.za/" target="_blank" rel="noopener">Rawdons</a>
-</div>
-</div>
-```
-
-### if no site
-```
-<span></span>
-```
-## Additional CSS
-### In theme
 ```
 .bottom-links a, .bottom-links span { 	
 	margin: 0px 0px 0px 10px; 
@@ -138,7 +114,12 @@
 .table1, .table2 {     border-collapse: collapse; }  .table1, .table2, .table1 th, .table2 th, .table1 td, .table2 td {     border: 1px solid #ddd; }  .table1 th, .table2 th {     text-align: left; }  .table2 td {     text-align: left; }  .table1 tr:nth-child(even):hover { 	background-color: #eee; }  .table1 tr:nth-child(odd):hover { 	background-color: #eee; }  .table1 tr:nth-child(even) { 	background-color: #efefef; }   .table1 tr:nth-child(odd) {     border-bottom: 2px solid #ddd; }  .table1 td:first-child {     font-weight: bold;     background-color: #FFF; 	border-bottom: 2px solid #ddd; }  .table1 tr:nth-child(even) td:nth-child(2), .table1 tr:nth-child(even) td:nth-child(3) {     color: green; }  .table1 tr:nth-child(odd) td:nth-child(2), .table1 tr:nth-child(odd) td:nth-child(3) {     color: red; }  .table1 tr:nth-child(even) td:nth-child(2):after {     content: 'Linky'; }  .table1 tr:nth-child(odd) td:nth-child(2):after {     content: 'Martin'; }  .table1 th, .table2 th {     background-color: #189aab;     color: white; }
 
 .nb {
+	margin-top: 5px;	
+}
+
+.nb span {
 	font-weight: bold;
 	color: red;
 }
+
 ```
