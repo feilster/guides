@@ -15,20 +15,20 @@
 > git commit -m "< any descriptive commit message >"   \\\  commit with message to local repo  
 > git push   \\\ commits to github repo
 
-
 ## Add folder to existing repo:
 > git init  
 > git add .  
 > git commit -m "Initial Commit"  
-> git remote add github https://github.com/feilster/< repo-name >.git  
-> git push -u origin master   \\\ this may not work, rather use git pull below 
+> git remote add < remote name > https://github.com/feilster/< repo-name >.git  
+> git push -u < remote name > master
 
 ## Pull down latest changes:
-> git pull origin master
-* if you see 'origin' does not appear to be a git repository
-> git remote add origin https://github.com/feilster/Angular4
+> git pull < remote name > master
 
 ## Git keeps asking for username password
 
 In the folder where you've pulled down the repo go to the **.git** folder and change the **config** file. Change the url variable to
 > url = https://< username >:< password >@github.com/feilster/guides.git
+
+## Check what remote name was used and which remote repo is present
+> git remote -v
