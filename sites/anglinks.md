@@ -125,4 +125,13 @@
 	color: red;
 }
 
+.visited-spot {
+	color: #008000;
+}
+
+.future-spot {
+	color: #ff00ff;
+}
+
+
 ```
