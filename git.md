@@ -5,7 +5,7 @@
 > git status
 
 ## Pull down repo
-> git clone https://github.com/feilster//< repo name >   \\\ not sure if necessary but do inside target dir
+> git clone https://github.com/feilster/< repo name >   \\\ not sure if necessary but do inside target dir
 
 ## Checkout \ switch branch
 > git checkout gh-pages
@@ -21,12 +21,12 @@
 > git add .  
 > git commit -m "Initial Commit"  
 > git remote add github https://github.com/feilster/< repo-name >.git  
-> git push -u origin master   
+> git push -u origin master   \\\ this may not work, rather use git pull below 
 
 ## Pull down latest changes:
 > git pull origin master
 * if you see 'origin' does not appear to be a git repository
-git remote add origin https://github.com/feilster/Angular4
+> git remote add origin https://github.com/feilster/Angular4
 
 ## Git keeps asking for username password
 
