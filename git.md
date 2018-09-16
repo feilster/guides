@@ -20,8 +20,8 @@
 > git init  
 > git add .  
 > git commit -m "Initial Commit"  
-> git remote add github https://github.com/feilster/< repo-name >.git  
-> git push -u origin master   \\\ this may not work, rather use git pull below 
+> git remote add < repo-name > https://github.com/feilster/< repo-name >.git  
+> git push -u origin master   \\\ this may not work, rather use git pull below if empty
 
 ## Pull down latest changes:
 > git pull origin master
@@ -31,4 +31,4 @@
 ## Git keeps asking for username password
 
 In the folder where you've pulled down the repo go to the **.git** folder and change the **config** file. Change the url variable to
-> url = https://< username >:< password >@github.com/feilster/guides.git
+> url = https://< username >:< password >@github.com/feilster/< repo name >
