@@ -8,7 +8,7 @@
 > git clone https://github.com/feilster/< repo name >   \\\ not sure if necessary but do inside target dir
 
 ## Checkout \ switch branch
-> git checkout gh-pages
+> git checkout < branch name > 
 
 ## New changes
 > git add <. or specific pages>  \\\ mark to be committed  
@@ -19,11 +19,9 @@
 > git init  
 > git add .  
 > git commit -m "Initial Commit"  
-> git remote add < repo-name > https://github.com/feilster/< repo-name >.git  
-> git push -u origin master   \\\ this may not work, rather use git pull below if empty
 > git remote add < remote name > https://github.com/feilster/< repo-name >.git  
 > git push -u < remote name > master
-
+ 
 ## Pull down latest changes:
 > git pull < remote name > master
 
@@ -31,7 +29,6 @@
 
 In the folder where you've pulled down the repo go to the **.git** folder and change the **config** file. Change the url variable to
 > url = https://< username >:< password >@github.com/feilster/< repo name >
-> url = https://< username >:< password >@github.com/feilster/guides.git
 
 ## Check what remote name was used and which remote repo is present
 > git remote -v
