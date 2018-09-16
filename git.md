@@ -13,13 +13,13 @@
 ## New changes
 > git add <. or specific pages>  \\\ mark to be committed  
 > git commit -m "< any descriptive commit message >"   \\\  commit with message to local repo  
-> git push   \\\ commits to github repo
+> git push   \\\ commits to git repo
 
 ## Add folder to existing repo:
 > git init  
 > git add .  
-> git commit -m "Initial Commit"  
-> git remote add < remote name > https://github.com/feilster/< repo-name >.git  
+> git commit -m "initial commit"  
+> git remote add < remote name > https://github.com/feilster/< repo-name >  
 > git push -u < remote name > master
  
 ## Pull down latest changes:
