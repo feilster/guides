@@ -30,5 +30,8 @@
 In the folder where you've pulled down the repo go to the **.git** folder and change the **config** file. Change the url variable to
 > url = https://< username >:< password >@github.com/feilster/< repo name >
 
+If getting a 400 when doing a pull run the following command first
+> git remote set-url origin https://github.com/feilster/< repo name >
+
 ## Check what remote name was used and which remote repo is present
 > git remote -v
